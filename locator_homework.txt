@@ -1,0 +1,36 @@
+HOMEWORK SECTION 2:
+
+1) Find Amazon Logo and click on it:
+search_amazon_icon = driver.find_element(By.ID, 'nav-search-submit-button')
+search_icon.click()
+XPATH:
+$x("//*[@class='a-icon a-icon-logo']")
+
+2) Email field (XPATH)
+$x("//input[@id='ap_email']")
+
+3) Continue button (XPATH)
+$x("//input[@id='continue']")
+
+4) Need help link (XPATH)
+$x("//*[@id='authportal-main-section']")
+
+5) Forgot your password link
+$x("//*[@id='auth-fpp-link-bottom']")
+
+6) Other issues with sign-in link
+$x("//*[@id='ap-other-signin-issues-link']")
+
+7) Create account button
+$x("//*[@id='createAccountSubmit']")
+
+###
+For Optional Tasks, if these are not correct, please DM me
+in Slack. I was able to isolate the links but not to
+discern between the links at middle and bottom of page
+###
+8) Conditions of use link:
+$x("//a[contains(., 'Conditions of Use')]")
+
+9) Privacy Notice:
+$x("//a[contains(., 'Privacy Notice')]")

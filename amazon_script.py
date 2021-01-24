@@ -12,6 +12,9 @@ search_field.send_keys('Watches')
 search_icon = driver.find_element(By.ID, 'nav-search-submit-button')
 search_icon.click()
 
+search_icon = driver.find_element(By.TAG_NAME, 'nav-search-submit-button')
+search_icon.click()
+
 actual_text = driver.find_element(By.XPATH, "//span[@class='a-color-state a-text-bold']").text
 expected_text = '"Watches"'
 
